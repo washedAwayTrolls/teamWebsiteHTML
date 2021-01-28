@@ -36,3 +36,9 @@
 .box {
   background-color:red;
 }
+
+.nathansDiv {
+  border: 5px outset yellow;
+  background-color: blue;
+  text-align: center;
+}
