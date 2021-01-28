@@ -5,9 +5,49 @@
     background-color:yellow;
 }
 
-</style>
+
     
-  
+   .dropbtn {
+  background-color: #2E567A;
+  color: BLACK;
+  padding: 10px;
+  font-size: 30px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.nathansDiv {
+  border: 5px outset yellow;
+  background-color: blue;
+  text-align: center;
+}
+</style>
 
 <link src="style.css" type="text/css" />
 <head>
@@ -60,7 +100,36 @@
     </ul>
     <h1>Nested Tag 2</h1>
     <div class="nathansDiv">
-      Howdy!
+      <section>
+        <p>
+          <section>
+            <li>
+              nuff said.
+            </li>
+          </section>>
+        </p>
+      </section>
+    </div>
+    <h1>Nested Tag 3</h1>
+    <ul>
+      <li>WOH!
+        <li>Woh.
+          <li>
+            woh!
+          </li>
+        </li>
+      </li>
+    </ul>
+    <h1>Nested Tag 4</h1>
+    <div class="nathansDiv">
+      <div>
+      <table><select id="test100">
+        <option value="oh hi Mark"></option>
+        <option value="oh hi Mark"></option>
+      </select>
+    </table>
+      </div>
+      
     </div>
 </body>
 
