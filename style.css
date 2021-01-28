@@ -1,5 +1,3 @@
-<head>
-<style>
 .dropbtn {
   background-color: #2E567A;
   color: BLACK;
@@ -34,13 +32,3 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
-</style>
-</head>
-<body>
-        <div class="dropdown">
-          <button class="dropbtn">&#171</button>
-          <div class="dropdown-content">
-            <a href="index.html">Home &#127969;</a>
-          </div>
-        </div>
-    </body>
